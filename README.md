@@ -1,62 +1,19 @@
-# investiment_analysis
+# Investiment App
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+![GitHub repo size](https://img.shields.io/github/repo-size/artyuan/investment-analysis?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/artyuan/investment-analysis?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/artyuan/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/artyuan/investment-analysis?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/artyuan/investment-analysis?style=for-the-badge)
 
-A short description of the project.
+<img src="imagem.png" alt="Exemplo imagem">
 
-## Project Organization
+> This is your all-in-one web app for comprehensive investment analysis. Designed for both novice and seasoned investors, our platform provides real-time data, in-depth market insights, and the latest financial news to help you make informed investment decisions.
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for investiment_analysis
-│                         and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── investiment_analysis                <- Source code for use in this project.
-    │
-    ├── __init__.py    <- Makes investiment_analysis a Python module
-    │
-    ├── data           <- Scripts to download or generate data
-    │   └── make_dataset.py
-    │
-    ├── features       <- Scripts to turn raw data into features for modeling
-    │   └── build_features.py
-    │
-    ├── models         <- Scripts to train models and then use trained models to make
-    │   │                 predictions
-    │   ├── predict_model.py
-    │   └── train_model.py
-    │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations
-        └── visualize.py
-```
+### Adjustments and Improvements
 
---------
+The project is still under development, and the upcoming updates will focus on the following tasks:
+
+- [ ] Add gen AI
+- [ ] Add portfolio
 
