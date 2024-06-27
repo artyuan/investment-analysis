@@ -6,7 +6,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/artyuan/investment-analysis?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/artyuan/investment-analysis?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="investment_app_main_page_1.png" alt="Exemplo image">
+<img src="investment_app_main_page_2.png" alt="Exemplo image">
 
 > This is your all-in-one web app for comprehensive investment analysis. Designed for both novice and seasoned investors, our platform provides real-time data, in-depth market insights, and the latest financial news to help you make informed investment decisions.
 
