@@ -34,4 +34,4 @@ jobs:
       env:
         newsapi_key: ${{ secrets.NEWSAPI_KEY }}
       run: |
-        python -m unittest discover -s . -p '*_test.py'
+        run: python -m unittest test_news.py
