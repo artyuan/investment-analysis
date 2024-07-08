@@ -182,10 +182,13 @@ if __name__ == '__main__':
     # Get signals
     if option != '^BVSP':
         st.subheader('Technical Indicators Strategies')
-        daily_update = pd.read_csv('C:\\Users\\arthu\\PycharmProjects\\investment_analysis\\data\\daily_update.csv')
+        base_dir = os.path.dirname(__file__)[:-4]
+        daily_update_path = os.path.join(base_dir, 'data','daily_update.csv').replace('\\', '/')
+        daily_update = pd.read_csv(daily_update_path)
+
         # daily_update = update_all_ticker_signals(daily_update)
-        best_stock_strategy = pd.read_csv(
-            'C:\\Users\\arthu\\PycharmProjects\\investment_analysis\\data\\best_strategy.csv')
+        stock_strategy_path = os.path.join(base_dir, 'data','best_strategy.csv').replace('\\', '/')
+        best_stock_strategy = pd.read_csv(stock_strategy_path)
         daily_update = get_stock_signal(f'{companies[option][1]}', best_stock_strategy)
 
 
